@@ -4,4 +4,11 @@ dropdown.selectByIndex(4);
 
 dropdown.selectByVisibleText("9 Adults");
 
+dropdown.selectByVisibleText("10 Adults");
+
+dropdown.selectByVisibleText("11 Adults");
+
+
 dropdown.selectByValue("8");*/
+
+New line added to learn git PR request 
