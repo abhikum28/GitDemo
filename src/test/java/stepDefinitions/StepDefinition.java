@@ -47,13 +47,13 @@ public class StepDefinition extends Utils {
 	public void the_api_call_is_succes_with_status_code(Integer int1) {
 		assertEquals(response.getStatusCode(), 200);
 		System.out.println("A new line added by user Y");
-
+		System.out.println("A new line added by user X");
 	}
 	
 	@Then("{string} in response body is {string}")
 	public void in_response_body_is(String key, String expectedValue) {
 		assertEquals(getJsonPathValue(response, key), expectedValue);
-		
+		System.out.println("Another line added by user X in response body function");
 	}
 
 	@Then("verify place_Id created maps to {string} using {string}")
