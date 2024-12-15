@@ -65,12 +65,14 @@ public class StepDefinition extends Utils {
 		String actName = getJsonPathValue(response, "name");
 		Assert.assertEquals(actName, expName);
 		System.out.println("Develop branch change new line added by user Y");
+		System.out.println("Develop branch change new line added by user X");
 	}
 
 	@Given("Delete Place payload")
 	public void delete_place_payload() throws IOException {
 		reqSpec = given().spec(getReqSpecBase())
 				.body(testData.delPlacePayload(place_Id));
+		System.out.println("Develop branch change line added by user X");
 	}
 	
 }
