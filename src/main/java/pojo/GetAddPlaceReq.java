@@ -2,6 +2,8 @@ package pojo;
 
 import java.util.List;
 
+//This is comment for GetAddPlaceReq class
+
 public class GetAddPlaceReq {
 	private Location location;
 	private int accuracy;
